@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">   
+</head>
+
+<body>
+    <header class="center" id="acessibilidade">
+        <button name="Aumenta a letra" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="Diminui a letra" id="decrease-font" title="Diminuir fonte">A -</button>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="question-container" id="question">
+                <p>Parabéns você respondeu todas as questões: </p>
+            </div>
+            
+            <div class="option-container">
+                <br>
+                <button class="option" data-correto="false" id="op1">Se você acertou de 05 ou 04 questões: você foi incrível</button>
+
+                <br>
+
+                <button class="option" data-correto="false" id="op2">Se você acertou 03 ou 02 questões: você foi bem!</button>
+
+                <br>
+
+                <button class="option" data-correto="true"  id="op3">Se você acertou 01 ou 00 questões: estude mais!</button>
+                
+                <br>
+            </div>
+        </div>
+    </main>
+    
+    <script src="javascript.js"></script>
+
+</body>
+</html>
